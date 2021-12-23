@@ -31,5 +31,25 @@ describe Solver do
 
     end
 
+    describe "fizzbuzz takes an integer and returns a string" do
+        it "should return 'fizz' when n is divisible by 3" do
+            n = 3
+            expect(solver.fizzbuzz(n)).to eq "fizz"
+        end
 
+        it "should return 'buzz' when n is divisible by 5" do
+            n = 5
+            expect(solver.fizzbuzz(n)).to eq "buzz"
+        end
+
+        it "should return 'fizzbuzz' when n is divisible by 3 and 5" do
+            n = 15
+            expect(solver.fizzbuzz(15)).to eq "fizzbuzz"
+        end
+
+        it "should return n when n is divisible by any number thats not 3 or 5" do
+            n = 7
+            expect(solver.fizzbuzz(n)).to eq 7
+        end
+    end
 end
