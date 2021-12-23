@@ -44,12 +44,12 @@ describe Solver do
 
         it "should return 'fizzbuzz' when n is divisible by 3 and 5" do
             n = 15
-            expect(solver.fizzbuzz(15)).to eq "fizzbuzz"
+            expect(solver.fizzbuzz(n)).to eq "fizzbuzz"
         end
 
         it "should return n when n is divisible by any number thats not 3 or 5" do
             n = 7
-            expect(solver.fizzbuzz(n)).to eq 7
+            expect(solver.fizzbuzz(n)).to eq '7'
         end
     end
 end
