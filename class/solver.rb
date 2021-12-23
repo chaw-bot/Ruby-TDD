@@ -4,5 +4,10 @@ class Solver
         raise StandardError.new("n should be a positive integer") if n<0
         return factorial(n-1) * n if n > 0
     end
+    
+    def reverse(word)
+ 
+    end
+    
 end
  
