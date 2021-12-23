@@ -6,7 +6,7 @@ class Solver
     end
     
     def reverse(word)
- 
+        return word.reverse
     end
     
 end
