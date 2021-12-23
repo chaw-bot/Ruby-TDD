@@ -11,7 +11,7 @@ describe Solver do
 
         it 'should return an exception if integer is negative' do
             n = -1
-            expect(solver.factorial(n)).to raise_error('n should be a positive integer')
+            expect {solver.factorial(n)}.to raise_error('n should be a positive integer')
         end
         
         it 'should return the factorial of 5' do
