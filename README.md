@@ -23,7 +23,7 @@ To run the tests:
 👤 **Chawanzi Ng'uni**
 
 - GitHub: [@chaw-bot](https://github.com/chaw-bot)
-- Twitter: [@chaw36422087](https://twitter.com/chaw36422087)
+- Twitter: [@chaw36422087](https://twitter.com/chawfronaut)
 - LinkedIn: [Chawanzi Ng'uni](https://www.linkedin.com/in/chawanzi-ng-uni-449328212/)
 
 👤 **Houssam Hichami**
